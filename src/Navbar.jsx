@@ -1,12 +1,14 @@
 const Navbar = () => {
   return (
     <div>
-      <div className="w-full bg-blue-950 text-white flex px-8 py-4">
-        <span className="basis-1/3">
+      <div className="w-full bg-blue-950 text-white flex px-8 py-2">
+        <span className="basis-1/3 text-sm">
           +385 (0)32 423 025 | Blage Zadre 4, 32010, Vukovar
         </span>
-        <span className="basis-1/3 text-center"> 5. sat završava za 27:49</span>
-        <span className="basis-1/3 text-end">Prijava</span>
+        <span className="basis-1/3 text-center text-lg">
+          5. sat završava za 27:49
+        </span>
+        <span className="basis-1/3 text-end text-sm">Prijava</span>
       </div>
       <div className="flex justify-around items-center py-4">
         <div className="flex items-center">

@@ -1,7 +1,14 @@
+import Navbar from "./Navbar";
+import Carousel from "./Carousel";
+import Vijesti from "./Vijesti";
+import VideoSadrzaji from "./VideoSadrzaji";
 const App = () => {
   return (
     <div>
-      <h1>Hello, World!</h1>
+      <Navbar></Navbar>
+      <Carousel></Carousel>
+      <Vijesti></Vijesti>
+      <VideoSadrzaji></VideoSadrzaji>
     </div>
   );
 };

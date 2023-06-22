@@ -1,0 +1,8 @@
+add svg's to vijesti & navbar 
+add zvono functionality to navbar
+add shaded background to NASLOVNICA in navbar
+
+next -> zvono sticky
+        djelatnici, ucenici, od 1927.
+        minor responsive fixes
+        ...
