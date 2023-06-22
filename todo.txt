@@ -1,8 +1,14 @@
 add svg's to vijesti & navbar 
 add zvono functionality to navbar
 add shaded background to NASLOVNICA in navbar
+animations in 3 bar
+zvono sticky
+replace svg's in 3 bar
+shadow in vijesti boxes border
+cool border effects in video sadrzaji boxes borders ???
+high quality tesla logo
+footer
 
-next -> zvono sticky
-        djelatnici, ucenici, od 1927.
-        minor responsive fixes
+next ->
+        responsive
         ...
