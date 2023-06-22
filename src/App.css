@@ -1,12 +1,26 @@
-.grid3 {
+.vijestiDisplay {
   /* grid grid-cols-3 gap-16 */
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 4rem;
+  padding: 1.5rem;
+}
+@media (min-width: 768px) {
+  .vijestiDisplay {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 4rem;
+  }
 }
 
 .widthOfItems {
-  width: 25rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .widthOfItems {
+    width: 25rem;
+  }
 }
 
 .gridItemImage {

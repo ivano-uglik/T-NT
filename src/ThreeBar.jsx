@@ -3,7 +3,7 @@ import djelatnik from "./assets/djelatnik.svg";
 import teslaSVG from "./assets/teslaSVG.svg";
 const ThreeBar = () => {
   return (
-    <div className="flex gap-64 justify-center pt-12">
+    <div className="flex flex-col items-center gap-32 md:flex-row md:gap-64 md:justify-center pt-12">
       <div>
         <img src={gradCap} alt="učenik" className="w-[10rem] mx-auto" />
         <h1 className="text-center pt-8 text-3xl font-bold">400+ učenika</h1>

@@ -3,12 +3,14 @@ add zvono functionality to navbar
 add shaded background to NASLOVNICA in navbar
 animations in 3 bar
 zvono sticky
+videosadrzaji CSS classes
 replace svg's in 3 bar
 shadow in vijesti boxes border
 cool border effects in video sadrzaji boxes borders ???
 high quality tesla logo
 footer
-
+potpis
+if more than 3 items in vijesti on mobile, automatically hide
 next ->
         responsive
         ...

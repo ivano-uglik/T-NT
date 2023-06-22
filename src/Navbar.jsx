@@ -23,7 +23,7 @@ const Navbar = () => {
             <h2>VUKOVAR</h2>
           </div>
         </div>
-        <div className="flex gap-8">
+        <div className="hidden md:flex gap-8 ">
           <a>NASLOVNICA</a>
           <a>O ŠKOLI &#x25BC;</a>
           <a>OBAVIJESTI &#x25BC;</a>

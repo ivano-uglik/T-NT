@@ -5,7 +5,7 @@ const Vijesti = () => {
     <div>
       <h1 className="title">Najnovije vijesti</h1>
       <div className="grid place-items-center">
-        <div className="grid3">
+        <div className="vijestiDisplay">
           {Data.map((x) => {
             return (
               <div key={x.id} className="widthOfItems">
