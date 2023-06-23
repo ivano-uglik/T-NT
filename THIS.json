@@ -1,0 +1,69 @@
+[
+  {
+    "id": 0,
+    "getTitle": ["Literarni i likovni natječaj naše škole"],
+    "getImgs": [
+      "/upload/ss-tehnicka-ntesla-vu/images/newsimg/1390/kreativno-pisanje_(1).jpg"
+    ]
+  },
+  {
+    "id": 1,
+    "getTitle": [
+      "U PONUDI ZA UPIS U PRVI RAZRED 2023./2024. SLJEDEĆI PROGRAMI:"
+    ],
+    "getImgs": []
+  },
+  {
+    "id": 2,
+    "getTitle": ["Sastanak predsjednice Vijeća učenika s ravnateljem škole"],
+    "getImgs": [
+      "/upload/ss-tehnicka-ntesla-vu/images/newsimg/1324/IMG-a385232668a6f33233536cc0f416e11d-V.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "getTitle": ["Humanitarna akcija Vijeća učenika"],
+    "getImgs": [
+      "/upload/ss-tehnicka-ntesla-vu/newsattach/1309/IMG_20221223_124230.jpg",
+      "/upload/ss-tehnicka-ntesla-vu/newsattach/1309/IMG_20221223_130927_edit_18730000875266.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "getTitle": ["Međunarodni dan sjećanja na žrtve Holokausta"],
+    "getImgs": [
+      "/upload/ss-tehnicka-ntesla-vu/images/newsimg/1318/Image/h1.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "getTitle": ["Proslavljen 87. rođendan naše škole"],
+    "getImgs": [
+      "/upload/ss-tehnicka-ntesla-vu/images/newsimg/1365/Image/ds2.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "getTitle": ["Završni radovi"],
+    "getImgs": ["/upload/ss-tehnicka-ntesla-vu/images/newsimg/1290/images.jpeg"]
+  },
+  {
+    "id": 7,
+    "getTitle": ["Ekolozi u Tehničkoj školi Nikole Tesle"],
+    "getImgs": [
+      "/upload/ss-tehnicka-ntesla-vu/images/newsimg/1262/Image/eko.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "getTitle": ["IndexHR o robotici u našoj školi"],
+    "getImgs": []
+  },
+  {
+    "id": 9,
+    "getTitle": ["Popis licenciranih obrtnika"],
+    "getImgs": [
+      "/upload/ss-tehnicka-ntesla-vu/newsattach/1112/Popis_licenciranih_obrtnika.pdf"
+    ]
+  }
+]
