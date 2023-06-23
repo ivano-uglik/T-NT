@@ -11,6 +11,7 @@ high quality tesla logo
 footer
 potpis
 if more than 3 items in vijesti on mobile, automatically hide
+responsive blue navbar
+
 next ->
-        responsive
         ...
