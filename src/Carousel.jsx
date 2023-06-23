@@ -7,6 +7,7 @@ const Carousel = () => {
         src={Skola}
         alt="Tehnička škola Nikole Tesle Vukovar"
         className="h-screen w-screen object-cover"
+        loading="lazy"
       />
     </div>
   );

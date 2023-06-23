@@ -1,3 +1,5 @@
+import Logo from "./assets/Logo.jpg";
+
 const Navbar = () => {
   return (
     <div>
@@ -13,7 +15,7 @@ const Navbar = () => {
       <div className="flex justify-around items-center py-4">
         <div className="flex items-center">
           <img
-            src="https://yt3.googleusercontent.com/ytc/AGIKgqPayIqZbukrzuqd-q08JOTSyKaWaen0ojdpOUJ3=s900-c-k-c0x00ffffff-no-rj"
+            src={Logo}
             alt="Logo Tehničke škole Nikole Tesle"
             className="rounded-full w-24 h-24"
           />
