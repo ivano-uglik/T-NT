@@ -13,7 +13,7 @@ const ThreeBar = () => {
         />
         <h1 className="text-center pt-8 text-3xl font-bold block">
           <span className="inline-block">
-            <CounterAnimation start={0} end={400} duration={5000} />
+            <CounterAnimation start={0} end={400} duration={1000} />
           </span>
           + učenika
         </h1>
@@ -22,7 +22,7 @@ const ThreeBar = () => {
         <img src={djelatnik} alt="djelatnik" className="w-[10rem] mx-auto" />
         <h1 className="text-center pt-8 text-3xl font-bold block">
           <span className="inline-block">
-            <CounterAnimation start={0} end={70} duration={5000} />
+            <CounterAnimation start={0} end={70} duration={1000} />
           </span>
           + djelatnika
         </h1>
@@ -32,7 +32,7 @@ const ThreeBar = () => {
         <h1 className="text-center pt-8 text-3xl font-bold block">
           od&nbsp;
           <span className="inline-block">
-            <CounterAnimation start={2023} end={1923} duration={5000} />
+            <CounterAnimation start={2023} end={1923} duration={1000} />
           </span>
           .
         </h1>{" "}

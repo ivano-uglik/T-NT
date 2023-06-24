@@ -1,13 +1,11 @@
-import React from "react";
-
 import TeslaSignature from "./assets/TeslaSignature.svg";
-const Signature = () => {
+const Signature = (props) => {
   return (
     <div className="py-24 flex justify-center">
       <img
         src={TeslaSignature}
         alt="Potpis Nikole Tesle"
-        className="w-[50rem]"
+        className={`w-[${props.size}]`}
       />
     </div>
   );

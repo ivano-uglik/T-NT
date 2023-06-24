@@ -32,7 +32,9 @@ const Vijesti = () => {
       </div>
       <h1 className="text-4xl font-bold text-center py-8">Prikaži više</h1>
       <span className="text-4xl text-center pb-16 block">&#x25BC;</span>
-      <div className="w-full bg-black pb-[0.1rem]" />
+      <div className="flex justify-center">
+        <div className="w-[50%] bg-black pb-[0.1rem] " />
+      </div>
     </div>
   );
 };

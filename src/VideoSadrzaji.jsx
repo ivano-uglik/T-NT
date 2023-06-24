@@ -9,7 +9,7 @@ const VideoSadrzaji = () => {
           src="https://www.youtube-nocookie.com/embed/5mSl1gRuvzQ"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="allowfullscreen"
+          allowFullScreen="allowFullScreen"
         ></iframe>
         <iframe
           width="320rem"
@@ -17,7 +17,7 @@ const VideoSadrzaji = () => {
           src="https://www.youtube-nocookie.com/embed/tXH25y-7XPA"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="allowfullscreen"
+          allowFullScreen="allowFullScreen"
         ></iframe>
         <iframe
           width="320rem"
@@ -25,7 +25,7 @@ const VideoSadrzaji = () => {
           src="https://www.youtube.com/embed/UcN7kTkGTv0"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="allowfullscreen"
+          allowFullScreen="allowFullScreen"
         ></iframe>
       </div>
     </div>
