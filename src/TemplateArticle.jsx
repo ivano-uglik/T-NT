@@ -1,7 +1,10 @@
+import phoneSVG from "./assets/phoneSVG.svg";
+import locationSVG from "./assets/locationSVG.svg";
+import webSVG from "./assets/webSVG.svg";
 const TemplateArticle = () => {
   return (
     <div className="flex justify-center gap-8 h-full">
-      <div className="w-[50%] h-full bg-gray-100 p-4">
+      <div className="w-[85%] md:w-[50%] text-sm md:text-base bg-gray-100 p-4 flex flex-col items-stretch">
         <h1>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo officia
           sequi quos dolor amet nam rem explicabo ducimus. Obcaecati natus
@@ -20,11 +23,23 @@ const TemplateArticle = () => {
           voluptatem laudantium vitae!
         </p>
       </div>
-      <div className="w-[30%]">
+      <div className="w-[30%] hidden md:block">
         <div className="bg-gray-100 p-4">
-          <h1 className="pb-2">Tehnička škola Nikole Tesle Vukovar</h1>
-          <h2>Blage Zadre 4, 32010, Vukovar</h2>
-          <a href="http://tsnt.hr">tsnt.hr</a>
+          <h1 className="pb-1 font-semibold">
+            Tehnička škola Nikole Tesle Vukovar
+          </h1>
+          <div className="flex items-center gap-2">
+            <img src={phoneSVG} alt="telefon" className="w-4 opacity-60" />
+            <h2>Tel | Fax: +385 (0)32 423 025</h2>
+          </div>
+          <div className="flex items-center gap-2">
+            <img src={locationSVG} alt="lokacija" className="w-4 opacity-60" />
+            <h2>Blage Zadre 4, 32010, Vukovar</h2>
+          </div>
+          <div className="flex items-center gap-2">
+            <img src={webSVG} alt="telefon" className="w-4 opacity-60" />
+            <a href="http://tsnt.hr">tsnt.hr</a>
+          </div>
         </div>
         <h1 className="p-8 text-center text-xl font-bold">Školsko zvono</h1>
         <div className="border border-black p-4">

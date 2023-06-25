@@ -3,15 +3,19 @@ import Logo from "./assets/Logo.jpg";
 const Footer = () => {
   return (
     <div>
-      <div className="w-full py-8 bg-blue-950 text-white font-light flex justify-around items-center">
+      <div className="py-8 bg-teslaBlue text-white font-light">
         <div className="flex flex-col text-left">
           <span>Tehnička škola Nikole Tesle Vukovar</span>
           <span>Blage Zadre 4</span>
           <span>32010 Vukovar</span>
         </div>
         <div className="flex flex-col gap-8 items-center">
-          <img src={Logo} alt="Logo škole" className="w-32 rounded-full" />
-          <div className="flex gap-16">
+          <img
+            src={Logo}
+            alt="Logo škole"
+            className="w-24 md:w-32 rounded-full"
+          />
+          <div className="flex gap-2 md:gap-16">
             <a href="#">O školi</a>
             <a href="#">Obavijesti</a>
             <a href="#">Projekti</a>
