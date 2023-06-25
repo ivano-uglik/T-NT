@@ -11,8 +11,11 @@ const App = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <TemplateArticle></TemplateArticle>
-      <Signature size="50rem" />
+      <Carousel></Carousel>
+      <ThreeBar></ThreeBar>
+      <Vijesti></Vijesti>
+      <VideoSadrzaji></VideoSadrzaji>
+      <Signature></Signature>
       <Footer></Footer>
     </div>
   );

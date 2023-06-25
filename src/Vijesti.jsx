@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Data from "../THIS.json";
 import "./App.css";
 const Vijesti = () => {
@@ -20,7 +21,13 @@ const Vijesti = () => {
                     Pariatur hic, ex enim at magni, aperiam cupiditate quasi
                     porro nihil illum quia sequi maxime quod.
                   </p>
-                  <button className="gridButton">{"Prikaži vijest >"}</button>
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="gridButton"
+                  >
+                    {"Prikaži vijest >"}
+                  </motion.button>
                   <div className="gridSpanParent">
                     <span className="gridSpan">26.3.2023. | Marko Horvat</span>
                   </div>

@@ -1,9 +1,8 @@
-import React from "react";
 import Logo from "./assets/Logo.jpg";
 const Footer = () => {
   return (
     <div>
-      <div className="py-8 bg-teslaBlue text-white font-light">
+      <div className="py-8 bg-teslaBlue text-white font-light flex justify-around items-center">
         <div className="flex flex-col text-left">
           <span>Tehnička škola Nikole Tesle Vukovar</span>
           <span>Blage Zadre 4</span>
