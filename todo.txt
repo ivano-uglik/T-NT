@@ -18,6 +18,7 @@ add shaded background to NASLOVNICA in navbar
 shadow in vijesti boxes border
 cool border effects in video sadrzaji boxes borders ???
 high quality tesla logo
+animation for pagination in vijesti, scroll to added articles
 
 next ->
         prikazi vise pagination
