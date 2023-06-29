@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Logo from "./assets/Logo.jpg";
-import Dropdown from "./Dropdown";
+import { motion } from "framer-motion";
 const Navbar = () => {
-  const [isHovered, setIsHovered] = useState();
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
       <div className="w-full bg-teslaBlue text-white flex px-8 py-2">
@@ -29,7 +29,28 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex gap-12 text-center">
           <button>NASLOVNICA</button>
-          <button>O ŠKOLI &#x25BC; </button>
+          <div className="relative">
+            <button
+              onClick={() => {
+                isOpen ? setIsOpen(false) : setIsOpen(true);
+              }}
+            >
+              O ŠKOLI &#x25BC;{" "}
+            </button>
+            <motion.div
+              className="absolute bg-teslaBlue text-white w-[250%] text-left p-4 mt-4"
+              initial={{ opacity: 0 }}
+              animate={isOpen ? { opacity: 1 } : { opacity: 0 }}
+            >
+              <ul className="flex flex-col gap-2">
+                <li>Čije ime nosimo?</li>
+                <li>Povijest</li>
+                <li>Lokacija</li>
+                <li>Knjižnica</li>
+                <li>Kućni red</li>
+              </ul>
+            </motion.div>
+          </div>
           <button>OBAVIJESTI &#x25BC;</button>
           <button>PROJEKTI &#x25BC;</button>
           <button>UPISI &#x25BC;</button>

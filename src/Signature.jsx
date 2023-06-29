@@ -6,6 +6,7 @@ const Signature = (props) => {
         src={TeslaSignature}
         alt="Potpis Nikole Tesle"
         style={{ width: `${props.size}rem` }}
+        className="px-4"
       />
     </div>
   );

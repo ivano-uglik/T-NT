@@ -1,18 +1,24 @@
-add svg's to vijesti & navbar 
-add zvono functionality to navbar
-add shaded background to NASLOVNICA in navbar
-animations in 3 bar
+main changes:
 zvono sticky
-videosadrzaji CSS classes
+animations in 3 bar
+add zvono functionality to navbar
+hide remaining vijesti if more than 2 cols on pc, or if more than 3? items on mobile, click prikazi vise to show
+hamburger menu for mobile navbar
+dropdown menu for navbar 
+framer motion animations 
+carousel in naslovnica 
+
+minor changes:
 replace svg's in 3 bar
+add svg's to vijesti & navbar 
+add shaded background to NASLOVNICA in navbar
 shadow in vijesti boxes border
 cool border effects in video sadrzaji boxes borders ???
 high quality tesla logo
-footer
-potpis
-if more than 3 items in vijesti on mobile, automatically hide
+
 responsive blue navbar
 responsive footer
 
 next ->
-        ...
+        dropdown menu for navbar
+        framer motion animations
