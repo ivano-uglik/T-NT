@@ -5,7 +5,7 @@ const Signature = (props) => {
       <img
         src={TeslaSignature}
         alt="Potpis Nikole Tesle"
-        className={`w-[${props.size}]`}
+        style={{ width: `${props.size}rem` }}
       />
     </div>
   );

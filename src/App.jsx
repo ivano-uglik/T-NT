@@ -15,7 +15,7 @@ const App = () => {
       <ThreeBar></ThreeBar>
       <Vijesti></Vijesti>
       <VideoSadrzaji></VideoSadrzaji>
-      <Signature></Signature>
+      <Signature size={50}></Signature>
       <Footer></Footer>
     </div>
   );

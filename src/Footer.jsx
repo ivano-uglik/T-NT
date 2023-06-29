@@ -35,8 +35,7 @@ const Footer = () => {
           pridržana.
         </span>
         <span>
-          Izrada web stranice -{" "}
-          <span className="font-semibold">Ivano Uglik</span>, bTR 24/25 |{" "}
+          Izrada web stranice - <span>Ivano Uglik</span>, bTR 24/25 |{" "}
           <a
             href="http://github.com/ivano-uglik/T-NT"
             className="underline underline-offset-2"
