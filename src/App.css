@@ -5,20 +5,23 @@
   gap: 4rem;
   padding: 1.5rem;
 }
+
 @media (min-width: 768px) {
   .vijestiDisplay {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
   }
 }
 
-.widthOfItems {
+.article {
   width: 100%;
 }
 
 @media (min-width: 768px) {
-  .widthOfItems {
+  .article {
     width: 25rem;
   }
 }
@@ -33,15 +36,15 @@
   border-bottom-right-radius: 0;
 }
 
-.gridText {
+.articleText {
   /* p-4 rounded-3xl relative rounded-t-none bg-gray-200 h-[20rem]    */
   position: relative;
-  height: 20rem;
   padding: 1rem;
   border-radius: 1.5rem;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   background-color: #e3e3ee;
+  padding-bottom: 5rem;
 }
 
 .gridH1 {

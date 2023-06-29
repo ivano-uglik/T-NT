@@ -2,11 +2,14 @@ main changes:
 zvono sticky
 animations in 3 bar
 add zvono functionality to navbar
-hide remaining vijesti if more than 2 cols on pc, or if more than 3? items on mobile, click prikazi vise to show
+show more pagination for 2 columns on pc, and 3 articles on mobile
 hamburger menu for mobile navbar
-dropdown menu for navbar 
-framer motion animations 
+framer motion animations for navbar, etc.
 carousel in naslovnica 
+
+/ THE GREAT NEXTJS MIGRATION \
+NextJS router
+NextJS SSR/SSG? for website
 
 minor changes:
 replace svg's in 3 bar
@@ -16,9 +19,6 @@ shadow in vijesti boxes border
 cool border effects in video sadrzaji boxes borders ???
 high quality tesla logo
 
-responsive blue navbar
-responsive footer
-
 next ->
-        dropdown menu for navbar
+        prikazi vise pagination
         framer motion animations

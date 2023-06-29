@@ -1,8 +1,8 @@
 const VideoSadrzaji = () => {
   return (
-    <div>
+    <div className="kontenjer">
       <h1 className="title">Video Sadržaji</h1>
-      <div className="flex flex-col items-center md:flex-row md:justify-center gap-16">
+      <div className="flex flex-col items-center md:flex-row md:justify-between gap-16 md:gap-0">
         <iframe
           width="320rem"
           height="180rem"

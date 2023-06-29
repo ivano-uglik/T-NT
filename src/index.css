@@ -5,3 +5,9 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+.kontenjer {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}

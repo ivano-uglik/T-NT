@@ -5,14 +5,16 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <div className="w-full bg-teslaBlue text-white flex px-8 py-2">
-        <span className="basis-1/3 text-sm">
+      <div className="w-full bg-teslaBlue text-white flex flex-col items-center gap-2 md:gap-0 md:flex-row md:px-8 py-2">
+        <span className="md:basis-1/3 text-sm text-center">
           +385 (0)32 423 025 | Blage Zadre 4, 32010, Vukovar
         </span>
-        <span className="basis-1/3 text-center text-lg">
+        <span className="md:basis-1/3 text-center md:text-lg">
           5. sat završava za 27:49
         </span>
-        <span className="basis-1/3 text-end text-sm">Prijava</span>
+        <span className="hidden md:block md:basis-1/3 text-end text-sm">
+          Prijava
+        </span>
       </div>
       <div className="flex justify-around items-center py-4">
         <div className="flex items-center">

@@ -3,18 +3,18 @@ import Data from "../THIS.json";
 import "./App.css";
 const Vijesti = () => {
   return (
-    <div>
+    <div className="kontenjer">
       <h1 className="title">Najnovije vijesti</h1>
-      <div className="grid place-items-center">
-        <div className="vijestiDisplay">
+      <div>
+        <div className="vijestiDisplay ">
           {Data.map((x) => {
             return (
-              <div key={x.id} className="widthOfItems">
+              <div key={x.id} className="article">
                 <img
                   src={"http://ss-tehnicka-ntesla-vu.skole.hr" + x.getImgs[0]}
                   className="gridItemImage"
                 />
-                <div className="gridText">
+                <div className="articleText">
                   <h1 className="gridH1">{x.getTitle}</h1>
                   <p className="gridP">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
